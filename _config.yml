@@ -102,3 +102,4 @@ deploy:
   type: git
   repo: https://github.com/ChenYi1031/ChenYi1031.github.io.git
   branch: main
+  force: flase
