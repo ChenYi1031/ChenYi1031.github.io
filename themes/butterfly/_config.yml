@@ -46,8 +46,9 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/ChenYi1031 || Github || '#24292e'
+  fas fa-envelope: mailto:284914351@qq.com || Email || '#4a7dbe'
+  fas fa-phone: tel:18670570487 || Phone || '#4CAF50'
 
 # --------------------------------------
 # Image Settings
@@ -83,7 +84,7 @@ footer_img: false
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background:
+background: /img/bcak.jpg
 
 cover:
   # Disable the cover or not
@@ -255,6 +256,8 @@ footer:
     enable: true
     version: true
   custom_text:
+    - 📱 电话：18670570487
+    - 📧 邮箱：<a href="mailto:284914351@qq.com">284914351@qq.com</a>
 
 # --------------------------------------
 # Aside Settings
@@ -276,13 +279,13 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/ChenYi1031
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: "商务联系V：K284914351，电话18670570487，邮箱284914351@qq.com"
   card_recent_post:
     enable: true
     # If set 0 will show all
