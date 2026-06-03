@@ -45,10 +45,12 @@ code_blocks:
 # Social media links
 # Formal:
 #   icon: link || the description || color
-social:
-  fab fa-github: https://github.com/ChenYi1031 || Github || '#24292e'
-  fas fa-envelope: mailto:284914351@qq.com || Email || '#4a7dbe'
-  fas fa-phone: tel:18670570487 || Phone || '#4CAF50'
+
+# 社交图标区域
+# social:
+#   fab fa-github: https://github.com/ChenYi1031 || Github || '#24292e'
+#   fas fa-envelope: mailto:284914351@qq.com || Email || '#4a7dbe'
+#   fas fa-phone: tel:18670570487 || Phone || '#4CAF50'
 
 # --------------------------------------
 # Image Settings
@@ -279,13 +281,13 @@ aside:
     enable: true
     description:
     button:
-      enable: false
+      enable: true
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/ChenYi1031
   card_announcement:
     enable: true
-    content: "商务联系V：K284914351，电话18670570487，邮箱284914351@qq.com"
+    content: "商务联系 V：K284914351<br>电话：18670570487<br>邮箱：284914351@qq.com"
   card_recent_post:
     enable: true
     # If set 0 will show all
