@@ -69,7 +69,7 @@ disable_top_img: false
 default_top_img: /img/bcak.jpg
 index_img: /img/bcak.jpg
 archive_img: /img/bcak.jpg
-tag_img: /img/bcak.jpg
+tag_img: /img/heard.jpg
 # Format:
 #  - tag name: xxxxx
 tag_per_img:
