@@ -75,20 +75,22 @@ db.json
 
 # Hexo generated output (we publish via GitHub Actions, so don't commit these)
 public/
-index.html
-atom.xml
-sitemap.xml
-sitemap.txt
-archives/
-categories/
-tags/
-page/
-2022/
-2023/
-2024/
-2025/
-2026/
-css/
-js/
-img/
-fancybox/
+
+# Only ignore compiled output at root level (not source/ subdirectories)
+/index.html
+/atom.xml
+/sitemap.xml
+/sitemap.txt
+/archives/
+/categories/
+/tags/
+/page/
+/2022/
+/2023/
+/2024/
+/2025/
+/2026/
+/css/
+/js/
+/img/
+/fancybox/
