@@ -70,6 +70,9 @@ Thumbs.db
 # Database
 db.json
 
+# Hexo deploy intermediate (compiled site snapshot, do not commit)
+.deploy_git/
+
 # Hexo generated output (we publish via GitHub Actions, so don't commit these)
 public/
 index.html
