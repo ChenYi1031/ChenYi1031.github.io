@@ -98,8 +98,10 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy 配置保留但分支改为 gh-pages（不会被使用）
+# GitHub Actions 自动处理构建与部署，不要手动 hexo deploy
 deploy:
   type: git
   repo: https://github.com/ChenYi1031/ChenYi1031.github.io.git
-  branch: main
-  force: flase
+  branch: gh-pages
+  force: false
