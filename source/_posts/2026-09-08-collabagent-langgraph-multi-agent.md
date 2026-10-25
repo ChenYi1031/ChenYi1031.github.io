@@ -14,7 +14,7 @@ description: CollabAgent（Multi-Agents）项目复盘：LangGraph StateGraph �
 
 # CollabAgent：用 LangGraph 搭建多 Agent 协作研究报告系统
 
-> 之前写过一篇[从 LangChain 到 LangGraph 的概念梳理](/2026/06/23/langchain-to-langgraph-agent/)，这篇不讲概念，只讲把多 Agent 系统真正落地时的工程决策。
+> 之前写过一篇[从 LangChain 到 LangGraph 的概念梳理](/2026/06/23/2026-06-23-langchain-to-langgraph-agent/)，这篇不讲概念，只讲把多 Agent 系统真正落地时的工程决策。
 
 CollabAgent 是一个多 AI Agent 协作系统：输入一个研究主题，Researcher 检索资料、Writer 撰写带引用的报告、Fact-Checker 做事实核查，最后返回结构化 Markdown。整体是"专业团队分工"的隐喻——不是为了堆 Agent 数量，而是因为**单 Agent 干这件事有三个结构性缺陷**：
 
